@@ -1,0 +1,28 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "0.0.0",
+  "scripts": {
+    "check": "standard",
+    "test": "mocha",
+    "ci": "npm run check && npm test"
+  },
+  "bin": {
+    "{{name}}": "bin/{{name}}.js"
+  },
+  "homepage": "http://mongodb-js.github.io/{{name}}",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongodb-js/{{name}}.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pre-commit": "^1.0.6",
+    "mocha": "^2.2.1",
+    "standard": "^3.3.2"
+  },
+  "license": "Apache 2",
+  "precommit": [
+    "check"
+  ]
+}
