@@ -17,9 +17,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "pre-commit": "^1.0.6",
+    "jshint": "^2.6.3",
     "mocha": "^2.2.1",
-    "jshint": "^2.6.3"
+    "pre-commit": "^1.0.6"
   },
   "license": "Apache 2",
   "precommit": [
