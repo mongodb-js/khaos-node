@@ -7,7 +7,7 @@ A Khaos template to start new node modules.
 Save the template locally with:
 
 ```
-khaos install imlucas/khaos-node node
+khaos install mongodb-js/khaos-node node
 ```
 
 ## Usage
