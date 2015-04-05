@@ -15,7 +15,7 @@ khaos install mongodb-js/khaos-node node
 Create a new spa application with:
 
 ```
-khaos node mymodule
+khaos create node mymodule
 ```
 
 ## License
