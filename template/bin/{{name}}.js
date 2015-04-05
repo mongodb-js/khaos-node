@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-var {{camelCase name}} = require('../');
+var {{camelcase name}} = require('../');
