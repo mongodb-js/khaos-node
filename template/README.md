@@ -1,17 +1,17 @@
-# {{name}}
+# {{name}} [![travis][travis_img]][travis_url] [![npm][npm_img]][npm_url]
 
-[![build status](https://secure.travis-ci.org/mongodb-js/{{name}}.png)](http://travis-ci.org/mongodb-js/{{name}})
-[![Gitter](https://img.shields.io/badge/gitter-mongodb--js%2F{{name}}-brightgreen.svg)](https://gitter.im/mongodb-js/{{name}})
-
-{{description}}
-
+> {{description}}
 
 ## Example
 
 ```javascript
-// @todo
 ```
 
 ## License
 
-Apache 2
+Apache 2.0
+
+[travis_img]: https://img.shields.io/travis/mongodb-js/{{name}}.svg
+[travis_url]: https://travis-ci.org/mongodb-js/{{name}}
+[npm_img]: https://img.shields.io/npm/v/{{name}}.svg
+[npm_url]: https://npmjs.org/package/{{name}}

@@ -2,6 +2,4 @@
  *
  * @api public
  */
-module.exports = function(){
-
-};
+module.exports = function() {};
