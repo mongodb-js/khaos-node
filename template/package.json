@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}",
+  "name": "{{slugcase name}}",
   "description": "{{description}}",
   "version": "0.0.0",
   "scripts": {
@@ -8,10 +8,10 @@
     "test": "mocha",
     "ci": "npm run check && npm test"
   },
-  "homepage": "http://github.com/mongodb-js/{{name}}",
+  "homepage": "http://github.com/mongodb-js/{{slugcase name}}",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mongodb-js/{{name}}.git"
+    "url": "git://github.com/mongodb-js/{{slugcase name}}.git"
   },
   "dependencies": {},
   "devDependencies": {
