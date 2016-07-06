@@ -1,8 +1,8 @@
 var {{camelcase name}} = require('../');
 var assert = require('assert');
 
-describe('{{name}}', function(){
-  it('should work', function(){
+describe('{{name}}', function() {
+  it('should work', function() {
     assert({{camelcase name}});
   });
 });
